@@ -27,7 +27,8 @@ const Sidebar = () => {
               "/"
             )}`}
           >
-            <FaHome className="mr-2" /> Home
+            <FaHome className="mr-2" />
+            <span className="page-name"> Home</span>
           </Link>
         </li>
         <li>
@@ -37,7 +38,8 @@ const Sidebar = () => {
               "/explore"
             )}`}
           >
-            <FaCompass className="mr-2" /> Explore
+            <FaCompass className="mr-2" />
+            <span className="page-name"> Explore</span>
           </Link>
         </li>
         <li>
@@ -47,7 +49,8 @@ const Sidebar = () => {
               "/notifications"
             )}`}
           >
-            <FaBell className="mr-2" /> Notifications
+            <FaBell className="mr-2" />
+            <span className="page-name"> Notifications</span>
           </Link>
         </li>
         <li>
@@ -57,7 +60,8 @@ const Sidebar = () => {
               "/messages"
             )}`}
           >
-            <FaEnvelope className="mr-2" /> Messages
+            <FaEnvelope className="mr-2" />
+            <span className="page-name"> Messages</span>
           </Link>
         </li>
         <li>
@@ -67,7 +71,8 @@ const Sidebar = () => {
               "/bookmark"
             )}`}
           >
-            <FaBookmark className="mr-2" /> Bookmark
+            <FaBookmark className="mr-2" />
+            <span className="page-name"> Bookmark</span>
           </Link>
         </li>
         <li>
@@ -77,7 +82,8 @@ const Sidebar = () => {
               "/twitter-blue"
             )}`}
           >
-            <FaTwitter className="mr-2" /> Twitter Blue
+            <FaTwitter className="mr-2" />
+            <span className="page-name"> Twitter Blue</span>
           </Link>
         </li>
         <li>
@@ -87,14 +93,18 @@ const Sidebar = () => {
               "/profile"
             )}`}
           >
-            <FaUser className="mr-2" /> Profile
+            <FaUser className="mr-2" />
+            <span className="page-name"> Profile</span>
           </Link>
         </li>
       </ul>
       <div className="flex items-center justify-center px-4 py-3 border-t">
-        <span className="text-gray-600 whitespace-nowrap">
-          &copy; 2023 Sabir Hussain.
-        </span>
+        <div className="flex flex-col items-center">
+          <span className="text-gray-600 whitespace-nowrap">
+            &copy; 2023 Sabir Hussain.
+          </span>
+          <span className="text-gray-600 whitespace-nowrap">03119574073</span>
+        </div>
       </div>
     </div>
   );
