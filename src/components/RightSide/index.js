@@ -30,7 +30,7 @@ function RightSide() {
         <li className="flex flex-col py-2">
           <span className="text-gray-600 mr-2">Trending in Pakistan</span>
           <div className="text-black hover:underline text-xl">#Frontend</div>
-          <span className="text-gray-600 ml-2">6.1k Tweets</span>
+          <span className="text-gray-600 ml-2">7.1k Tweets</span>
         </li>
       </ul>
     </div>

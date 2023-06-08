@@ -83,7 +83,7 @@ const Sidebar = () => {
             )}`}
           >
             <FaTwitter className="mr-2" />
-            <span className="page-name"> Twitter Blue</span>
+            <span className="page-name"> Twitter</span>
           </Link>
         </li>
         <li>
